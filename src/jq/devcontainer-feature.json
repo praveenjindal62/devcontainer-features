@@ -1,0 +1,9 @@
+{
+    "name": "jq",
+    "id": "jq",
+    "version": "1.0.0",
+    "description": "Install jq",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

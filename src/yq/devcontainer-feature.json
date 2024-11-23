@@ -1,0 +1,16 @@
+{
+    "name": "yq",
+    "id": "yq",
+    "version": "1.0.0",
+    "description": "Install yq",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Version of yq",
+            "default": "latest"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
