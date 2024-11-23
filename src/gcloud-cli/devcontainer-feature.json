@@ -1,0 +1,21 @@
+{
+    "name": "Gcloud CLI",
+    "id": "gcloud-cli",
+    "version": "1.0.0",
+    "description": "Install gcloud cli",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Version of gcloud cli",
+            "default": "latest"
+        },
+        "authplugin": {
+            "type": "string",
+            "description": "Install gke-gcloud-auth-plugin",
+            "default": "false"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
