@@ -4,8 +4,16 @@
 	"build": {
 		"dockerfile": "Dockerfile"
 	},
-"remoteUser": "node",
-"features": {
-	"ghcr.io/devcontainers/features/docker-in-docker:2": {}
-}
+	"remoteUser": "node",
+	"features": {
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.vscode-pull-request-github",
+				"ms-azuretools.vscode-docker"
+			]
+		}
+	}
 }
