@@ -1,8 +1,10 @@
 {
-    "test": {
+    "gcloud-cli-with-auth-plugin": {
         "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
         "features": {
-            "gcloud-cli": {}
+            "gcloud-cli": {
+                "authplugin": "true"
+            }
         }
     }
 }

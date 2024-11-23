@@ -41,6 +41,7 @@ source dev-container-features-test-lib
 # The 'check' command comes from the dev-container-features-test-lib. Syntax is...
 # check <LABEL> <cmd> [args...]
 check "gcloud is available" gcloud --version
+check "gke-gcloud-auth-plugin is available" gke-gcloud-auth-plugin --version
 
 # Report result
 # If any of the checks above exited with a non-zero exit code, the test will fail.
