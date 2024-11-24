@@ -1,0 +1,16 @@
+{
+    "name": "kubelogin",
+    "id": "kubelogin",
+    "version": "1.0.0",
+    "description": "Install kubelogin",
+    "options": {
+        "version": {
+            "type": "string",
+            "description": "Version of kubelogin",
+            "default": "v0.1.4"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
