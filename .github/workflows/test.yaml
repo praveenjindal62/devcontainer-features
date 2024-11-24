@@ -16,6 +16,7 @@ jobs:
           - gcloud-cli
           - yq
           - jq
+          - kubelogin
         baseImage:
           - debian:latest
           - ubuntu:latest
