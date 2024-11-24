@@ -1,8 +1,0 @@
-pip
-requests
-setuptools
-six
-tox
-tox-factor
-wheel
-virtualenv
