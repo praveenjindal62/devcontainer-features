@@ -1,0 +1,9 @@
+{
+    "name": "vault-cli",
+    "id": "vault-cli",
+    "version": "1.0.0",
+    "description": "Install haschicorp vault-cli",
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}
